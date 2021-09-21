@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-me</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modals">
+        <div class="block-modal" id="modalB">
+            <i class="far fa-times-circle" id="close"></i>
+            <div class="block-info">
+                <i class="fas fa-ban"></i>
+                <div class="block-text">
+                    You have blocked this User from sending messages to you
+                </div>
+                <button>ok</button>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="max-width">
+            <div class="header-top">
+                <div class="back-icon">
+                    <i class="fas fa-undo"></i>
+                </div>
+                <div class="text">
+                    <h4>CHAT</h4>
+                </div>
+            </div>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+    </header>
+    <div class="max-width">
+        <section class="chat-list">
+            <ul>
+                <li>
+                    <div class="chat-item">
+                        <div class="chat-left">
+                            <img src="images/biplob.jpg">
+                            <div class="text">
+                                <div class="title">Biplob Molla</div>
+                                <div class="desc">Lorem ipsum dolor sit amet.</div>
+                                <div class="time">4:01PM, 10 April 2021</div>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v" id="option">
+                            <ul class="chat-modal" id="modalC">
+                                <li><a href="chat.html">Chat</a></li>
+                                <li>Request Tip</li>
+                                <li id="block">Block</li>
+                            </ul>
+                        </i>
+                    </div>
+                </li>
+                <li>
+                    <div class="chat-item">
+                        <div class="chat-left">
+                            <img src="images/biplob.jpg">
+                            <div class="text">
+                                <div class="title">Biplob Molla</div>
+                                <div class="desc">Lorem ipsum dolor sit amet.</div>
+                                <div class="time">4:01PM, 10 April 2021</div>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="chat-item">
+                        <div class="chat-left">
+                            <img src="images/biplob.jpg">
+                            <div class="text">
+                                <div class="title">Biplob Molla</div>
+                                <div class="desc">Lorem ipsum dolor sit amet.</div>
+                                <div class="time">4:01PM, 10 April 2021</div>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="chat-item">
+                        <div class="chat-left">
+                            <img src="images/biplob.jpg">
+                            <div class="text">
+                                <div class="title">Biplob Molla</div>
+                                <div class="desc">Lorem ipsum dolor sit amet.</div>
+                                <div class="time">4:01PM, 10 April 2021</div>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="chat-item">
+                        <div class="chat-left">
+                            <img src="images/biplob.jpg">
+                            <div class="text">
+                                <div class="title">Biplob Molla</div>
+                                <div class="desc">Lorem ipsum dolor sit amet.</div>
+                                <div class="time">4:01PM, 10 April 2021</div>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <div class="max-width">
+            <div class="footer-item">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="footer-item">
+                <i class="far fa-plus-square"></i>
+            </div>
+            <div class="footer-item">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="footer-item">
+                <i class="far fa-bell"></i>
+            </div>
+            <div class="footer-item">
+                <img src="images/bp.jpg">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
